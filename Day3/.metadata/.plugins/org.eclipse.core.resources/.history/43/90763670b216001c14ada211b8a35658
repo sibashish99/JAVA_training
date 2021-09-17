@@ -1,0 +1,18 @@
+package com.training.demo;
+
+public class UsingStrings {
+
+	public static void main(String[] args) {
+		String city="Hydrabad";
+		String firstName="RAMESH";
+		String lastName="Sharma";
+		
+		System.out.println("Length "+city.length());
+		System.out.println("lower "+lastName.toLowerCase());
+		System.out.println("upper "+firstName.toLowerCase());
+		System.out.println("Subs "+city.substring(0,5));
+		
+        
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.example.demo;
+
+public class StudentService {
+   public String assignGrade(Student student) {
+	   if(student.getMarkScored() > 80)
+   }
+}

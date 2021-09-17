@@ -1,0 +1,19 @@
+package com.training;
+
+public class Insurance {
+   private int policyNumber;
+   private String policyHolder;
+   private double policyAmount;
+public Insurance() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public Insurance(int policyNumber, String policyHolder, double policyAmount) {
+	super();
+	this.policyNumber = policyNumber;
+	this.policyHolder = policyHolder;
+	this.policyAmount = policyAmount;
+}
+   
+   
+}

@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class Using_IfElse {
+   public static void main(String[] args) {
+	 int mark=67;
+	 
+  }
+}

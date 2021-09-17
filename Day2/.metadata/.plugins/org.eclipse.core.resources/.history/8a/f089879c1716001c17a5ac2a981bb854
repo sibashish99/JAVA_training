@@ -1,0 +1,6 @@
+package com.exercise.demo;
+
+public class Customer {
+   private String customerName;
+   
+}

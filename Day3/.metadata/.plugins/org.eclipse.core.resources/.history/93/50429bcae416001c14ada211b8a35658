@@ -1,0 +1,30 @@
+package com.training.demo;
+
+public class CreditCardService {
+	private CreditCard[] cardHolderList;
+    private static int maxSize =3;
+	public CreditCardService(CreditCard[] cardHolderList) {
+		super();
+		this.cardHolderList = cardHolderList;
+	}
+	public CreditCardService() {
+		super();
+		this.cardHolderList=new CreditCard[maxSize];
+	}
+	public boolean addPerson(CreditCard student) {
+		if(count<maxSize) {
+			this.studList[count]= student;
+			count++;
+			return true;
+		} else {
+			System.out.println("Array size full..");
+			return false;
+		}
+		
+	}
+	public Student[] getStudList() {
+		return this.studList;
+	}
+    
+    
+}

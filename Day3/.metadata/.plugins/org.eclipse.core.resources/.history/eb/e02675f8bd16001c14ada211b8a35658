@@ -1,0 +1,21 @@
+package com.training;
+
+public class Book {
+    private int bookNumber;
+    private String bookName;
+    private String author;
+    private double price;
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Book(int bookNumber, String bookName, String author, double price) {
+		super();
+		this.bookNumber = bookNumber;
+		this.bookName = bookName;
+		this.author = author;
+		this.price = price;
+	}
+    
+    
+}

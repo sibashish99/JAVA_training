@@ -1,0 +1,13 @@
+package com.training.demo;
+
+public class UsingStrings {
+
+	public static void main(String[] args) {
+		String city="Hydrabad";
+		String firstName="RAMESH";
+		String lastName="Sharma";
+		
+        
+	}
+
+}

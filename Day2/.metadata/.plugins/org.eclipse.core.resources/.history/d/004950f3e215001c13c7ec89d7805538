@@ -1,0 +1,6 @@
+package com.example.demo;
+
+public class LocalAndParameterExample {
+    private int number=100;
+    
+}

@@ -1,0 +1,16 @@
+package com.exercise.demo;
+
+public class ItemService {
+	   public double findDiscount(Item item) {
+		   double discount= ratePerUnit;
+		   return discount;
+	   }
+	   
+	   public double findDiscount(Item item,String customer) {
+		   double discount=10;
+		   if(customer.equals("corporate")) {
+			   discount=15;
+		   }
+		   return discount;
+	   }
+}

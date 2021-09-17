@@ -1,0 +1,15 @@
+package com.exercise.demo;
+
+import com.example.demo.Student;
+
+public class ItemService {
+	   public int assignGrade(Item item) {
+		   int discount=5;
+		   return discount;
+	   }
+	   
+	   public int assignGrade(Item item,Customer customer) {
+		   int discount=10;
+		   if()
+	   }
+}

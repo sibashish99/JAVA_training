@@ -1,0 +1,12 @@
+package com.example.demo;
+
+public class Overloaded {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student ram=new Student(101,"Sibashish", 85, "Sibashish@abc.com");
+		
+
+	}
+
+}

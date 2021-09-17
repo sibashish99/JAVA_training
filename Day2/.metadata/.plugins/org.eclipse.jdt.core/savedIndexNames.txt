@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\lumen\Core java\Day2\.metadata\.plugins\org.eclipse.jdt.core
+666785205.index
+1213395727.index
+778069775.index
+1088540399.index

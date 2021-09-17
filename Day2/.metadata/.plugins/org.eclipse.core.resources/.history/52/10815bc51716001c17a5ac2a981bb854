@@ -1,0 +1,21 @@
+package com.exercise.demo;
+
+public class Customer {
+   private String customerName;
+   private int customerId;
+   private String customerType;
+public Customer() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public Customer(String customerName, int customerId, String customerType) {
+	super();
+	this.customerName = customerName;
+	this.customerId = customerId;
+	this.customerType = customerType;
+}
+
+
+   
+   
+}

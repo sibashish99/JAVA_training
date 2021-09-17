@@ -1,0 +1,14 @@
+package com.training.demo;
+
+public class Application {
+  public static void main(String[] args) {
+	SavingsAccount account= new SavingsAccount(114,1300,"Sibashish");
+	
+	account.deposit(1000);
+	account.deposit(124);
+	
+	System.out.println("Expectes 2424 =>"+account.getBalance());
+	
+	
+  }
+}

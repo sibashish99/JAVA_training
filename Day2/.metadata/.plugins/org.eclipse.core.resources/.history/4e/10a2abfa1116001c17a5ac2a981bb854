@@ -1,0 +1,16 @@
+package com.example.demo;
+
+public class while_DoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         for(int i=0;i<5;i++) {
+        	 System.out.println(i+" Hello");
+         }
+         int j=0;
+         do {
+        	 System.out.println(j+" world");
+         }
+	}
+
+}

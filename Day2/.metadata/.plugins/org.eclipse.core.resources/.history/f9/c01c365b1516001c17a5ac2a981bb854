@@ -1,0 +1,17 @@
+package com.exercise.demo;
+
+public class Item {
+	    private long itemId; 
+	    private String itemName; 
+	    private int ratePerUnit;
+	    private String catagory;
+	    
+		public Item() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+	    
+		
+		
+	    
+}

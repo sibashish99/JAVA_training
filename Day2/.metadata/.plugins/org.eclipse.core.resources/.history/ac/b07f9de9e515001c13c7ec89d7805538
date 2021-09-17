@@ -1,0 +1,20 @@
+package com.example.demo;
+
+public class LocalAndParameterExample {
+    private int number;
+    private static String name="Sibashish";
+    
+    public void usingLocal() {
+    	int age=1;  //local var need to be initialized
+    	System.out.println(age);
+    }
+    public void usingInstance(){
+    	System.out.println(number);  // instance var have default value
+    }
+    //passing arg => parameter var
+    public CreditCard usingParameter(CreditCard card) {
+    	card.setCardHolderName(card.getCardHolderName());
+    	
+    	return card;
+    }
+}

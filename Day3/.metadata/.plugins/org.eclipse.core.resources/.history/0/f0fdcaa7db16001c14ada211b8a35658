@@ -1,0 +1,9 @@
+package com.training.demo;
+
+public abstract class BankAccount {
+	private int accountNumber;
+	private String accountHolderName;
+	private double balance;
+	
+	
+}

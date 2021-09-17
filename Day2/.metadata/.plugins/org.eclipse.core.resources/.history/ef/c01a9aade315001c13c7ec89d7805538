@@ -1,0 +1,14 @@
+package com.example.demo;
+
+public class LocalAndParameterExample {
+    private int number;
+    private static String name="Sibashish";
+    
+    public void usingLocal() {
+    	int age; 
+    	System.out.println(age);
+    }
+    public void usingInstance(){
+    	System.out.println(number);
+    }
+}

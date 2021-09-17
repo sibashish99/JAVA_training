@@ -1,0 +1,10 @@
+package com.example.demo;
+
+public class Using_IfElse {
+   public static void main(String[] args) {
+	 int mark=67;
+	 if(mark>60) {
+		 
+	 }
+  }
+}

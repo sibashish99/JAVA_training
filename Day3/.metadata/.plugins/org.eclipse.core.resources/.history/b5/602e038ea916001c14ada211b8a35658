@@ -1,0 +1,23 @@
+package com.training.demo;
+
+public class StudentService {
+    private Student[] studList;
+    private static int maxSize =3;
+    private static int count=0;
+
+	public StudentService(Student[] studList) {
+		super();
+		this.studList = studList;
+	}
+
+	public StudentService() {
+		super();
+		this.studList=new Student[3];
+	}
+	
+	public boolean addStudent(Student student) {
+		this.studList[count]= student;
+		true;
+	}
+    
+}

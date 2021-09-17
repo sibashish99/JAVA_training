@@ -1,0 +1,12 @@
+package com.training.demo;
+
+public class CreditCardService {
+	private Creditcard[] cardHolderList;
+    private static int maxSize =3;
+	public CreditCardService(Creditcard[] cardHolderList) {
+		super();
+		this.cardHolderList = cardHolderList;
+	}
+    
+    
+}

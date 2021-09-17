@@ -1,0 +1,13 @@
+package com.example.demo;
+
+public class StudentService {
+   public String assignGrade(Student student) {
+	   String grade="A";
+	   if(student.getMarkScored() > 80) {
+		   grade="O";
+	   }
+	   return grade;
+   }
+   
+   p
+}

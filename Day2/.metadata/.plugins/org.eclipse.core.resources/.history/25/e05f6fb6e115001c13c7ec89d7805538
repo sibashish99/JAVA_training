@@ -1,0 +1,18 @@
+package com.example.demo;
+
+public class Application {
+	public static void print(CreditCard card) {
+		System.out.println(card.getCardHolderName());
+		System.out.println(card.getCardNumber());
+		System.out.println(CreditCard.getCardProvider()); //we have to access static method by class name
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CreditCard card= new CreditCard(1010101028, "Sibashish");
+		print(card);
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.example.demo;
+
+public class StudentService {
+   public String assignGrade(Student student) {
+	   String grade="A";
+	   if(student.getMarkScored() > 80) {
+		   grade="O";
+	   }
+	   return grade;
+   }
+   
+   public String assignGrade(Student student,String category) {
+	   if(category.equals("Urban")) {
+		   String grade="A";
+		   if(student.getMarkScored() > 80) {
+			   grade="O";
+		   }
+		   return grade;
+	   }
+	   else {
+		   String grade="A";
+		   if(student.getMarkScored() > 80) {
+			   grade="O";
+		   }
+		   return grade;
+	   }
+   }
+}

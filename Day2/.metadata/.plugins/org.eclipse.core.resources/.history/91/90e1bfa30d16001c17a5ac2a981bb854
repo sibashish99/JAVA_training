@@ -1,0 +1,18 @@
+package com.example.demo;
+
+public class Using_Switchcase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          String time="morning";
+          switch (time) {
+		case morning: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + time);
+		}
+	}
+
+}

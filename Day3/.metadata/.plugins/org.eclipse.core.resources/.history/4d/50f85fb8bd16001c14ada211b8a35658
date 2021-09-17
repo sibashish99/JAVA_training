@@ -1,0 +1,8 @@
+package com.training;
+
+public class Book {
+    private in bookNumber;
+    private string bookName;
+    private String author;
+    private double pric
+}

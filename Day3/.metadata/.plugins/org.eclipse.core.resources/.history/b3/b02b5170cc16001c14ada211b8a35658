@@ -1,0 +1,13 @@
+package com.training;
+
+public class Application {
+
+	public static void main(String[] args) {
+      //Book book1= new Book(101, "abc","bvc",100);
+      //System.out.println(book1);
+		
+		Insurance lifeInsurance= new Insurance(100, "Sibashish",200000);
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.training.demo;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CreditCard ram1= new CreditCard(101, "ram1 reddy");
+		CreditCard ram2= new CreditCard(102, "ram2 sharma");
+		CreditCard ram3= new CreditCard(103, "ram3 reddy");
+		CreditCard ram4= new CreditCard(104, "ram4 reddy");
+		
+		CreditCardService service= new CreditCardService();
+		
+		service.addList(ram1);
+		service.addList(ram2);
+		service.addList(ram3);
+		service.addList(ram4);
+		
+		CreditCard[] list=service.getList(); 
+		
+		int countR=0;
+		int countS=0;
+		for(Student eachStudent: list) {
+			if(Credi)
+		}
+		
+		
+	}
+
+}

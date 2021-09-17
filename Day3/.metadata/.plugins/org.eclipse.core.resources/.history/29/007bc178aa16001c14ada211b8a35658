@@ -1,0 +1,20 @@
+package com.training.demo;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Student ram=new Student(101,"ram",90,"ram@ABC.COM");
+       Student ram2=new Student(102,"ram1",91,"ram1@ABC.COM");
+       Student ram3=new Student(103,"ram2",92,"ram2@ABC.COM");
+       
+       StudentService service= new StudentService();
+       
+       service.addStudent(ram);
+       service.addStudent(ram2);
+       service.addStudent(ram3);
+       
+       
+	}
+
+}

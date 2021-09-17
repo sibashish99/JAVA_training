@@ -1,0 +1,7 @@
+package com.exercise.demo;
+
+public class Item {
+	    private long itemId; 
+	    private String itemName; 
+	    private String cardProvider="visa"; 
+}
