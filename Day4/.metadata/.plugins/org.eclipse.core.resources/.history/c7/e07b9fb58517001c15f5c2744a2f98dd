@@ -1,0 +1,33 @@
+package com.training.poly;
+
+import com.training.ifaces.Condition;
+
+public class Student implements Condition {
+   
+	private int markScored;
+	
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String markScored) {
+		super();
+		this.markScored = markScored;
+	}
+    
+	public int getmarkScored() {
+		return markScored;
+	}
+
+	public void setmarkScored(int markScored) {
+		this.markScored = markScored;
+	}
+
+	@Override
+	public boolean Test() {
+		// TODO Auto-generated method stub
+		return this.markScored)>80;
+	}
+
+}

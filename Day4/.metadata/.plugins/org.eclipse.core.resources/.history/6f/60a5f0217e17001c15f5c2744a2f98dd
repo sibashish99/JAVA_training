@@ -1,0 +1,7 @@
+package com.training.ifaces;
+
+public class DataInterface {
+     public boolean add(Object o);
+     public Object[] findAll();
+     public Object findById()
+}

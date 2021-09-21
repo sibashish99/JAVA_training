@@ -1,0 +1,50 @@
+package com.example.thread;
+
+class DepositTask implements Runnable() {
+	BankAccount account ;
+	
+	public DepositTask(BankAccount account) {
+		super();
+		this.account=account;
+		Thread t1= new Thread(this);
+		t1.start();
+		
+	}
+	@Override
+	public void run() {
+		System.out.println(amount.deposite(2000));
+	}
+	
+}
+class WithdrawTask implements Runnable()
+{
+	BankAccount account ;
+	
+	public WithdrawTask(BankAccount account) {
+		super();
+		this.account=account;
+		Thread t2= new Thread(this);
+		t2.start();
+		
+	}
+	@Override
+	public void run() {
+		System.out.println(account.withdraw(2000));
+	}
+	
+}
+
+public class NewApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 account= new BankAccount();
+		
+	    new DepositTask(account);
+	    new WithdrawTask(account);
+		
+	
+		
+	}
+
+}

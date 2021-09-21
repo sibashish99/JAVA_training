@@ -1,0 +1,21 @@
+package com.training.demo.exception;
+
+public class RangechangeException extends Exception {
+	/*
+	 * if we extend exception => checked
+	 * if R
+	 * */
+    private  String message;
+    
+    public RangechangeException(String message) {
+    	super(message);
+    }
+    
+	@Override
+	public String getMessage() {
+		return "Exception: ="+message;
+	}
+    
+    
+    
+} 

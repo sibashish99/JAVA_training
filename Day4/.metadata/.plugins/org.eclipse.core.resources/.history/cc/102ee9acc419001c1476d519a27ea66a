@@ -1,0 +1,51 @@
+package com.training;
+
+import com.training.ifaces.Billable;
+import com.training.poly.Person;
+
+public class SoftwareEngineer extends Person implements Billable {
+	
+	private String skill;
+	
+	
+
+	public SoftwareEngineer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public SoftwareEngineer(String firstName, String lastName, String email) {
+		super(firstName, lastName, email);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public SoftwareEngineer(String skill) {
+		super();
+		this.skill = skill;
+	}
+	
+	
+
+	public String getSkill() {
+		return skill;
+	}
+
+
+
+	public void setSkill(String skill) {
+		this.skill = skill;
+	}
+
+
+
+	@Override
+	public double calculate(Object obj) {
+		// TODO Auto-generated method stub
+		if()
+	}
+
+}

@@ -1,0 +1,19 @@
+
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(ìÍâ8òç¿/HàRMAJORZ
+CODE_SMELL
+k	java:S106$"9Replace this use of System.out or System.err by a logger.(Ÿ­øÆ8ê«‰¿/HáRMAJORZ
+CODE_SMELL
+•
+java:S4087/"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(™ë–Ù8¦­çœ¿/HâRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(åÙğï8ÖØˆ¿/HãRMAJORZ
+CODE_SMELL
+p	java:S1063"9Replace this use of System.out or System.err by a logger.(¿Û…âüÿÿÿÿ8èÕË›¿/HäRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(æÚ×ƒşÿÿÿÿ8ú›¿/HåRMAJORZ
+CODE_SMELL
+d
+java:S11352"2Complete the task associated to this TODO comment.(‡ñÅ¼8€ë¾›¿/HæRINFOZ
+CODE_SMELL
+p	java:S106("9Replace this use of System.out or System.err by a logger.(Ù°Ø¼úÿÿÿÿ8ç¤¿/HçRMAJORZ
+CODE_SMELL

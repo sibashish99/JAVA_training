@@ -1,0 +1,15 @@
+package com.example.thread;
+
+public class Application {
+
+	public static void main(String[] args) throws {
+		// TODO Auto-generated method stub
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

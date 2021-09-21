@@ -1,0 +1,13 @@
+package com.example.thread;
+
+public class StringApplication {
+
+	public static void main(String[] args) {
+		
+       new print("idli","sambar");
+       new print("idli1","sambar1");
+       new print("idli2","sambar2");
+       
+	}
+
+}

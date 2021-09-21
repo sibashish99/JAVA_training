@@ -1,0 +1,5 @@
+package com.training.demo.exceptions;
+
+public class RangeCheckException {
+   
+}

@@ -1,0 +1,15 @@
+package com.training;
+
+public class Application {
+	public static void 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        CurrencyConverter c1= new CurrencyConverter();
+        System.out.println("currency is "+c1.apply(45));
+        
+        TempConverter t1= new TempConverter();
+        System.out.println("temp is "+t1.apply(45));
+	}
+
+}

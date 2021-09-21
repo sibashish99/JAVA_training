@@ -1,0 +1,6 @@
+package com.training.ifaces;
+
+public interface iFunction {
+   public double apply(double age);
+   
+}

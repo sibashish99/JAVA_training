@@ -1,0 +1,13 @@
+package com.example.thread;
+
+public class StringApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       new PrintStrings("idli","sambar");
+       new PrintStrings("idli1","sambar1");
+       new PrintStrings("idli1","sambar");
+       
+	}
+
+}

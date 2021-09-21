@@ -1,0 +1,47 @@
+package com.training.demo;
+import java.util.Scanner;
+import com.training.Student;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+	 MyExceptionHandler handler = new MyExceptionHandler();
+		
+	//handler.usingMultiCatch("four");
+		
+	 try (Scanner sc= new Scanner(System.in);){
+		    System.out.println("Enter choice [1/2/3/4]");
+		    int key=sc.nextInt();
+			
+			switch (key) {
+			 case 1: 
+				handler.usingClassCastException();
+				break;
+	         case 2: 
+				handler.usingMultiCatch("234");
+				break;
+	         case 3:
+				handler.tryWithMultipleCatch();
+				break;
+	         case 4:
+	        	handler.useFinallyBlock();
+	        	break;
+	         case 5:
+	        	 Student ram= new Student();
+	        	 ram.setMarkScored(89);
+			 default:
+				break;
+			
+		    } 
+			sc.close();
+			
+	   } catch (Input e) {
+		 // TODO: handle exception
+		   System.err.println("Exception...");
+		  
+	   }
+	
+	}
+
+}

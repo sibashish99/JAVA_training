@@ -1,0 +1,21 @@
+package com.training;
+
+import com.training.ifaces.IFunction;
+
+public class CurrencyConverter implements IFunction {
+	public interface User{
+		public double add(int a, int b);
+	}
+
+	@Override
+	public double apply(double age) {
+		// TODO Auto-generated method stub
+		return ((age*45)/9.5);
+		
+	}
+//	public static void main(String[] args) {
+//		CurrencyConverter.User user= CurrencyConverter.User
+//	}
+
+}
+class Test implement 

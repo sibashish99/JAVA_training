@@ -1,0 +1,23 @@
+
+b
+java:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH²RINFOZ
+CODE_SMELL
+R
+java:S1168"&Return an empty array instead of null.(¥¹ïH³RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH´RINFOZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHµRINFOZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¶RINFOZ
+CODE_SMELL
+b
+java:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH·RINFOZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÓŞ¥H¸RMINORZ
+CODE_SMELL
+|	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï–ËªH¹RMINORZ
+CODE_SMELL

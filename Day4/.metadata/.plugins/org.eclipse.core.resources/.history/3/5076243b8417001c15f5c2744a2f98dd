@@ -1,0 +1,6 @@
+package com.training.ifaces;
+
+public interface Condition {
+   public boolean Test();
+
+}

@@ -1,0 +1,20 @@
+package com.example.thread;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Runnable counter= new count(); 
+        Thread t1= new Thread(counter,"first");
+        Thread t2= new Thread(counter,"Second");
+        Thread t3= new Thread(counter,"Third");
+        
+        t1.start();
+        t2.start();
+        t3.start();
+        
+        
+        
+	}
+
+}

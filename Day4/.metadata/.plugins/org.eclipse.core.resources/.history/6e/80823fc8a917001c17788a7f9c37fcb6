@@ -1,0 +1,8 @@
+package com.training.demo.exception;
+
+public class RangechangeException extends Exception {
+    private final String message;
+    private RangechangeException(String message) {
+    	super(message);
+    }
+} 

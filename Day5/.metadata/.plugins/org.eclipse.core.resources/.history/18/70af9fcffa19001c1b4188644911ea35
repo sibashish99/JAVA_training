@@ -1,0 +1,15 @@
+package com.example.thread;
+
+public class TaskJoin implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+       try {
+		
+	} catch (Exception e) {
+		
+	}
+	}
+
+}

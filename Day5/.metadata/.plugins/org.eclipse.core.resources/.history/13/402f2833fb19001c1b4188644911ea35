@@ -1,0 +1,11 @@
+package com.example.thread;
+
+public class JoinApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         System.out.println("main started");
+         
+	}
+
+}

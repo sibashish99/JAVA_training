@@ -1,0 +1,11 @@
+
+package com.training.ifaces;
+
+	public class DataInterface {
+	     public boolean add(Object o);
+	 
+	     public int update(Object Obj);
+	     public int remove(Object Obj);
+	}
+
+}

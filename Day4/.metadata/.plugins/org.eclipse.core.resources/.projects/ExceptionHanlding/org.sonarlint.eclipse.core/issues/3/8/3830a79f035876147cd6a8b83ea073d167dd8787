@@ -1,0 +1,21 @@
+
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(ÁèáìùÿÿÿÿH²	RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ª÷áüşÿÿÿÿH¯	RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(í ÂõøÿÿÿÿH°	RMAJORZ
+CODE_SMELL
+p	java:S106="9Replace this use of System.out or System.err by a logger.(Å‹Ëşÿÿÿÿ8Éí¡›¿/HÒ
+RMAJORZ
+CODE_SMELL
+p	java:S1069"9Replace this use of System.out or System.err by a logger.(ıùãşøÿÿÿÿ8¦Â ›¿/HÍ
+RMAJORZ
+CODE_SMELL
+d	java:S106
+"9Replace this use of System.out or System.err by a logger.(ôÌ¿òH®	RMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(ıùãşøÿÿÿÿ8ç‡›¿/H
+RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¶Ó–ïûÿÿÿÿH±	RMAJORZ
+CODE_SMELL

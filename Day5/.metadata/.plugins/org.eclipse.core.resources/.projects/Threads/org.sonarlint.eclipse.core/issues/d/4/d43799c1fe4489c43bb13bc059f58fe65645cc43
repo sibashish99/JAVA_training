@@ -1,0 +1,6 @@
+
+m
+java:S2094"BRemove this empty class, write its code or make it an "interface".(÷·é&Hÿ	RMINORZ
+CODE_SMELL
+w	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷·é&HŸ	RMINORZ
+CODE_SMELL

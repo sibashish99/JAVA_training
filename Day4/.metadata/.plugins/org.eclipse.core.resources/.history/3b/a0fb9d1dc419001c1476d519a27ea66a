@@ -1,0 +1,25 @@
+package com.training;
+
+import com.training.ifaces.Billable;
+import com.training.poly.Person;
+
+public class SoftwareEngineer extends Person implements Billable {
+	
+	private String skill;
+	
+	
+
+	public SoftwareEngineer(String skill) {
+		super();
+		this.skill = skill;
+	}
+
+
+
+	@Override
+	public double calculate(Object obj) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.example.thread;
+
+public class BankAccount {
+   private double balance;
+   public synchronized deposite(double balance) {
+	   balance = this.balance + amopunt;
+   }
+}

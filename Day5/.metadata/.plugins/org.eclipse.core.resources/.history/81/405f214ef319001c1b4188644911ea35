@@ -1,0 +1,8 @@
+package com.example.thread;
+
+public class count implements Runnable{
+       @Override
+       public void run() {
+    	   for(int i=1; i<)
+       }
+}

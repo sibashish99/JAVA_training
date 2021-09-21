@@ -1,0 +1,7 @@
+package com.training.poly;
+
+public class Person {
+   private String firstName;
+   private String lastNem;
+   private String emai
+}

@@ -1,0 +1,11 @@
+package com.example.thread;
+
+public class UseprintString implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+        
+	}
+
+}

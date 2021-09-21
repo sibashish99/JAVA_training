@@ -1,0 +1,7 @@
+package com.example.thread;
+
+public class NewCounter {
+  private int countUpTo;
+  
+  
+}

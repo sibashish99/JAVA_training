@@ -1,0 +1,20 @@
+package com.example.thread;
+
+public class BankAccount {
+   private double balance;
+   public synchronized deposite(double amopunt) {
+	   balance = this.balance + amopunt;
+	   
+	   notifyAll();
+	   return this.balance;
+   }
+   public synchronized double withdraw(double amount) {
+	   if(this.balance< amount) {
+		   try {
+			wait();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	   }
+   }
+}

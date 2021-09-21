@@ -1,0 +1,29 @@
+package com.training.poly;
+
+import com.training.ifaces.Condition;
+
+public class Professor implements Condition {
+	
+	private int markScored;
+	
+	
+
+	public Professor() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Professor(String markScored) {
+		super();
+		this.markScored = markScored;
+	}
+
+	@Override
+	public boolean Test() {
+		// TODO Auto-generated method stub
+		
+		
+		return this.markScored>80);
+	}
+
+}

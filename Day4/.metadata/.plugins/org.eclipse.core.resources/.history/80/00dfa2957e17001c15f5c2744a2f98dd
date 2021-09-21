@@ -1,0 +1,5 @@
+package com.training.ifaces;
+
+public abstract class DataAccess {
+
+}

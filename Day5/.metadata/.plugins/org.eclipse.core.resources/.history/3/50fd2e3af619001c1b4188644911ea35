@@ -1,0 +1,23 @@
+package com.example.thread;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Runnable TenCounter= new count(10); 
+        Thread t1= new Thread(TenCounter,"first");
+//        Thread t2= new Thread(TenCounter,"Second");
+//        Thread t3= new Thread(TenCounter,"Third");
+        
+        t1.start();
+//        t2.start();
+//        t3.start();
+        
+        Runnable TenCounter= new count(10); 
+        Thread t1= new Thread(TenCounter,"first");
+        
+        
+        
+	}
+
+}

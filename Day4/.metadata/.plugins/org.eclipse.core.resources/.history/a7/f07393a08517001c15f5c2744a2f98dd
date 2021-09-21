@@ -1,0 +1,35 @@
+package com.training.poly;
+
+import com.training.ifaces.Condition;
+
+public class Professor implements Condition {
+	
+	private String qualification;
+	
+	
+
+	public Professor() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Professor(String qualification) {
+		super();
+		this.qualification = qualification;
+	}
+    
+	public String getqualification() {
+		return qualification;
+	}
+
+	public void setqualification(String qualification) {
+		this.qualification = qualification;
+	}
+
+	@Override
+	public boolean Test() {
+		// TODO Auto-generated method stub
+		return this.qualification>"phd";
+	}
+
+}
