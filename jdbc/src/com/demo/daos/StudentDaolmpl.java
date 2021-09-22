@@ -1,0 +1,80 @@
+package com.demo.daos;
+import java.util.ArrayList;
+import java.util.List;
+import java.sql.*;
+import java.time.LocalDate;
+
+import com.demo.entity.Student;
+import com.demo.ifaces.CrudRepository;
+
+public class StudentDaolmpl implements CrudRepository<Student> {
+
+	private Connection cn;
+	
+	
+	public StudentDaolmpl(Connection cn) {
+		super();
+		this.cn = cn;
+	}
+
+	@Override
+	public boolean add(Student t) {
+		// TODO Auto-generated method stub
+		String sql = "insert into student values(?,?,?,?)";
+		int rowAdded=0;
+		try(PreparedStatement pstmt = cn.prepareStatement(sql);) {
+			pstmt.setInt(1, t.getRollNo());
+			pstmt.setString(2, t.getStudentName());
+			pstmt.setDate(3, Date.valueOf( t.getDateOfBirth()));
+			pstmt.setDouble(4, t.getMarkScored());
+			
+			rowAdded = pstmt.executeUpdate();
+				
+			
+		} catch (SQLException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return rowAdded==1?true:false;
+	}
+
+	@Override
+	public List<Student> findAll()  {
+
+		List<Student> sList = new ArrayList<>();
+		
+		String sql = "select * from  student";
+		
+	    try(PreparedStatement pstmt = cn.prepareStatement(sql);) {
+	    	
+	    	ResultSet rs = pstmt.executeQuery();
+	    	while(rs.next()) {
+	    		int rollNumber=rs.getInt("rollNo");
+	    		String studentName=rs.getString("studentName");
+	    	   	LocalDate dateOfBirth=rs.getDate("dateOfBirth").toLocalDate();
+	    		double markScored=rs.getDouble("markScored");
+	    		
+	    		Student student= new Student(rollNumber,studentName,dateOfBirth,markScored);
+	    		sList.add(student);
+	    	}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		return sList;
+	}
+
+	@Override
+	public int update(Student t) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean remove(Student t) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+     
+}
