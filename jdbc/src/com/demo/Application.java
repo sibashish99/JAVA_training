@@ -16,9 +16,9 @@ public class Application {
 		
 		Connection cn=DbConnection.getOracleConnection();
 		
-		CrudRepository<Student> repo= new StudentDaolmpl(cn);
+		CrudRepository<Student,Integer> repo= new StudentDaolmpl(cn);
 		
-		int key=2;
+		int key=4;
 		
 		if(key==1) {
 			Student ram= new Student(104,"ram4",LocalDate.of(1998, 5, 14),84);
@@ -34,6 +34,23 @@ public class Application {
 			
 			for(Student each:list) {
 				System.out.println(each);
+			}
+		}
+		if(key==3) {
+			Scanner sc= new Scanner(System.in);
+			
+			int n= sc.nextInt();
+			
+			Student st1=repo.findBtId(n);
+			System.out.println(st1);
+			
+			sc.close();
+		}
+		if(key==4) {
+			Student ram= new Student(104,"ram4",LocalDate.of(1998, 5, 14),84);
+			boolean res=repo.remove(ram);
+			if(res) {
+				System.out.println("row deleted...");
 			}
 		}
 		
