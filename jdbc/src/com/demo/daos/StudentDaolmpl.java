@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import com.demo.entity.Student;
 import com.demo.ifaces.CrudRepository;
 
-public class StudentDaolmpl implements CrudRepository<Student> {
+public class StudentDaolmpl implements CrudRepository<Student,Integer> {
 
 	private Connection cn;
 	
@@ -68,13 +68,51 @@ public class StudentDaolmpl implements CrudRepository<Student> {
 	@Override
 	public int update(Student t) {
 		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 
 	@Override
 	public boolean remove(Student t) {
 		// TODO Auto-generated method stub
-		return false;
+		
+		String sql= "delete from student where rollno = ?";
+		int rowDelete=0;
+		try(PreparedStatement pstmt = cn.prepareStatement(sql);) {
+			pstmt.setInt(1,t.getRollNo());
+			rowDelete= pstmt.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return (rowDelete==1)?true:false;
+	}
+
+	@Override
+	public Student findBtId(Integer e) {
+		// TODO Auto-generated method stub
+		String sql="select * from student where rollNo = ?";
+		Student obj=null;
+		try (PreparedStatement pstmt = cn.prepareStatement(sql);){
+			pstmt.setInt(1, e);
+			ResultSet rs = pstmt.executeQuery();
+	    	if(rs.next()) {
+	    		int rollNumber=rs.getInt("rollNo");
+	    		String studentName=rs.getString("studentName");
+	    	   	LocalDate dateOfBirth=rs.getDate("dateOfBirth").toLocalDate();
+	    		double markScored=rs.getDouble("markScored");
+	    		
+	    		obj= new Student(rollNumber,studentName,dateOfBirth,markScored);
+	    		
+	    	}
+			
+			
+		} catch (SQLException e1) {
+			
+			e1.printStackTrace();
+		}
+		return obj;
 	}
      
 }
