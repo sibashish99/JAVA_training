@@ -11,8 +11,6 @@ Z
 *src/com/example/thread/UseprintString.java,f\b\fbffb003413e4fd89471ba3107992bb3074c7846
 ]
 -src/com/example/thread/StringApplication.java,0\8\0802fd0b1837eaebd87aadd3ff88a8d501aa2bad
-W
-'src/com/example/thread/bANKaCCOUNT.java,d\4\d43799c1fe4489c43bb13bc059f58fe65645cc43
 T
 $src/com/example/thread/TaskJoin.java,c\9\c9d91ac6a063077f83737b7c0e27fc8b46bc0850
 X
@@ -21,3 +19,15 @@ W
 'src/com/example/thread/BankAccount.java,b\5\b555162ef34299f3a386a888f6d73a74ad6ff89b
 Z
 *src/com/example/thread/NewApplication.java,e\8\e8fd97add8cbca1dab81dd69363f1f380d6f7250
+P
+ src/com/example/PrintString.java,4\1\4117d235d31663315e425cbf6ee7d6e44432812f
+P
+ src/com/training/MyCallable.java,8\d\8d6d1a06a382c1b0e29ca5a6b65a1e5e280f30b9
+Z
+*src/com/training/MyCallabeApplication.java,2\c\2cd3eff678daa7efdd6aee731939608ce0021666
+Q
+!src/com/training/Application.java,0\2\02df1b9772087f30b71d56017a7fd7ff83448af8
+R
+"src/com/training/PrintStrings.java,8\7\87e9596052b737f744a7c9d2a0d1202921b7cb69
+T
+$src/com/training/UseprintString.java,9\6\96fc0136c0ed70f657a4ee3c755c10162ebb018c

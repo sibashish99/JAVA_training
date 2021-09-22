@@ -1,7 +1,7 @@
 
-k	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÝÝ©8ô”ñ˜À/HÚRMAJORZ
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ÄâÊ8ô”ñ˜À/HåRMINORZ
 CODE_SMELL
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ÄâÊ8ô”ñ˜À/HÛRMINORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÝÝ©8ô”ñ˜À/HæRMAJORZ
 CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(÷öÛÆ8ô”ñ˜À/HÙRMAJORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(÷öÛÆ8ô”ñ˜À/HçRMAJORZ
 CODE_SMELL

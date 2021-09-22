@@ -1,0 +1,13 @@
+package com.training;
+
+import com.example.thread.UseprintString;
+
+public class Application {
+
+		   Runnable task1= new UseprintString("idli","sambar");
+		   Runnable new UseprintString("idli1","sambar1");
+		   Runnable new UseprintString("idli2","sambar2");
+         
+	}
+
+}
