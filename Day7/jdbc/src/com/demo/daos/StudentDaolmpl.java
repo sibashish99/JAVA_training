@@ -68,8 +68,19 @@ public class StudentDaolmpl implements CrudRepository<Student,Integer> {
 	@Override
 	public int update(Student t) {
 		// TODO Auto-generated method stub
-		
-		return 0;
+		int r=0;
+		String sql="update student set studentName=?, markScored=?, where rollNo=?";
+		try(PreparedStatement pstmt = cn.prepareStatement(sql);) {
+			pstmt.setString(1,"Sibashish");
+			pstmt.setDouble(2, 200);
+			pstmt.setInt(3,t.getRollNo());
+			
+			r=pstmt.executeUpdate();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return r;
 	}
 
 	@Override
