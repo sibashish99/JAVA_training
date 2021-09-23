@@ -53,7 +53,14 @@ public class Application {
 				System.out.println("row deleted...");
 			}
 		}
-		
+		if(key==5) {
+			Student st2=new Student(104,"ram4",LocalDate.of(1998, 5, 14),84);
+			
+			
+			if(repo.update(st2)==1) {
+				System.out.println("Updated.....");
+			}
+		}
 	}
 
 }
